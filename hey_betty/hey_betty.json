@@ -1,15 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "Hey Betty",
-  "author": "Chris Uthe",
-  "website": "https://www.chrisuthe.com",
+  "wake_word": "hey_betty",
+  "author": "Chris",
+  "website": "",
   "model": "hey_betty.tflite",
   "trained_languages": [
     "en"
   ],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.50,
+    "probability_cutoff": 0.97,
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 22348,
